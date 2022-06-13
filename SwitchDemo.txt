@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+
+public class SwitchDemo {
+
+	public static void main(String[] args) {
+		Scanner SC = new Scanner(System.in);
+		System.out.print("Enter Case (HI/HELLO) : ");
+		String IP = SC.next();
+		//System.out.println("Case : "+IP);
+		
+		switch(IP.toUpperCase()) {
+			case "HI":
+				System.out.println("Hi, All Student...");
+				break;
+			case "HELLO":
+				System.out.println("Hello, All Student...");
+				break;
+			default:
+				System.out.println("Welcome, To All Student...");
+				break;
+		}
+	}
+
+}

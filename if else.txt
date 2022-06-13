@@ -1,0 +1,55 @@
+public class IfElseDemo {
+
+	public static void main(String[] args) {
+		
+//		// Unidirectional
+//		int a = 101;
+//		if(a == 10) {
+//			System.out.println("No. is 10.");
+//		}
+//		System.out.println("Out of IF Bloack.");
+		
+		// Bidirectional
+//		int a = 10;
+//		if(a == 10) {
+//			System.out.println("No. is 10.");
+//		}
+//		else {
+//			System.out.println("No. is Not 10.");
+//		}
+//		System.out.println("Out of IF Bloack.");
+		
+//		// Multidirectional (Nesting)
+//		int a = 250, b = 120, c = 30;
+//		if(a > b) {
+//			if(a>c) {
+//				System.out.println("A is Larger.");
+//			}
+//			else {
+//				System.out.println("C is Larger.");
+//			}
+//		}
+//		else {
+//			if(b>c) {
+//				System.out.println("B is Larger.");
+//			}
+//			else {
+//				System.out.println("C is Larger.");
+//			}
+//		}
+		
+		
+		
+		int a = 250, b = 120, c = 30;
+		if(a > b && a>c) {
+			System.out.println("A is Larger.");
+		}
+		else if(b>c) {
+			System.out.println("B is Larger.");
+		}
+		else {
+			System.out.println("C is Larger.");
+		}
+
+		System.out.println("Out of IF Bloack.");
+	}

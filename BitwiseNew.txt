@@ -1,0 +1,26 @@
+public class BitOperators {
+
+	public static void main(String[] args) {
+		int a = 10, b = 4;
+		System.out.println("A : "+a+", B : "+b);
+		System.out.println(" A & B : "+(a & b));
+		System.out.println(" A | B : "+(a | b));
+		System.out.println(" A ^ B : "+(a ^ b));
+		System.out.println(" ~A : "+(~a));
+		
+		System.out.println("---Left Shift---");
+		System.out.println("A << 2 : "+(a<<2));
+		System.out.println("A << 3 : "+(a<<3));
+		System.out.println("---Right Shift---");
+		System.out.println("A >> 2 : "+(a>>2));
+		System.out.println("A >> 3 : "+(a>>3));
+		
+		int V1 =  10;
+		System.out.println("Value1 : "+V1);
+		V1 &= 4; 
+		// V1 = V1 & 4 => 10 & 4 => 1010 & 0100 => 0
+		System.out.println("V1 &= 4 : "+(V1 &= 4));
+		
+		System.out.println("Value1 : "+V1);
+	}
+}

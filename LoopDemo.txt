@@ -1,0 +1,42 @@
+public class LoopDemo {
+
+	public static void main(String[] args) {
+//		System.out.println("For Loop:");
+//		for(int i = 6; i <= 24; i++) {
+//			System.out.println(i);
+//		}
+		
+//		System.out.println("While Loop:");
+//		int j = 6;
+//		//while(j <= 5) 
+//		while(true)
+//		{
+//			System.out.println(j);
+//			j++;
+//		}
+		
+//		System.out.println("Do...While Loop:");
+//		int k = 6;
+//		do{
+//			System.out.println(k);
+//			k++;
+//		}while(k <= 5);
+		
+//		for(int i = 1; i <= 5; i++) {
+//			if(i==3) {
+//				System.out.println("Three");
+//			}else {
+//				System.out.println(i);
+//			}
+//		}
+		
+		for(int i = 1; i <= 5; i++) {
+			if(i==3) {
+				System.out.println("Three");
+				continue;
+			}
+			System.out.println(i);
+		}
+	}
+
+}
